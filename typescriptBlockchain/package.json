@@ -1,0 +1,12 @@
+{
+    "name": "typechain",
+    "version" : "1.0.0",
+    "description": "Learn typescript and build blockchain with nomad coder",
+    "main": "index.js",
+    "author" : "Hyelee Lee <esara2021@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "prestart" : "tsc"
+    }
+}
