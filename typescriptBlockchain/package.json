@@ -1,12 +1,15 @@
 {
     "name": "typechain",
-    "version" : "1.0.0",
+    "version": "1.0.0",
     "description": "Learn typescript and build blockchain with nomad coder",
     "main": "index.js",
-    "author" : "Hyelee Lee <esara2021@gmail.com>",
+    "author": "Hyelee Lee <esara2021@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "node index.js",
-        "prestart" : "tsc"
+        "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+    },
+    "dependencies": {
+        "development": "0.0.6",
+        "tsc-watch": "^4.0.0"
     }
 }
